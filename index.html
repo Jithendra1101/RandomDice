@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>randomDice</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roller Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-  </head>
-  <body>
+  <div class="container">
+    <h1>Dice Roller Game</h1>
+    <h2 id="sumText">Roll the dice to see the sum!</h2>
 
-    <div class="container">
-      <h1>Refresh Me</h1>
-      <h2>Sum is </h2>
-
-      <div class="dice">
-        <p>Dice 1</p>
-        <img class="img1" src="images/dice6.png">
+    <div class="dice-container">
+      <div class="dice" id="dice1">
+        <img class="img1" src="images/dice6.png" alt="Dice 1">
       </div>
 
-      <div class="dice">
-        <p>Dice 2</p>
-        <img class="img2" src="images/dice6.png">
+      <div class="dice" id="dice2">
+        <img class="img2" src="images/dice6.png" alt="Dice 2">
       </div>
-
     </div>
 
-    <script src="index.js" charset="utf-8"></script>
+    <button id="rollBtn">Roll Dice</button>
 
-      </body>
+    <div class="history">
+      <h3>Roll History</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
 
-      <footer>
-        Jithendra_varma
-      </footer>
-    </html>
+  <footer>
+    Designed by Jithendra Varma
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
