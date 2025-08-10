@@ -41,4 +41,7 @@ function updateHistory(dice1, dice2, sum) {
 }
 
 // Attach rollTheDice function to button
+//and exectute after dice is rolled
+
 document.getElementById("rollBtn").addEventListener("click", rollTheDice);
+
