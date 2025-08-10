@@ -22,7 +22,7 @@ A simple and interactive dice rolling game where the user can roll two dice and 
 
 You can play the game directly from the following link:
 
-👉 **[Play Dice Roller Game](https://jithendra1101.github.io/RandomDice/)**
+👉 **[Play Dice Roller Game](https://virtualdice.vercel.app/)**
 
 ### Local Version
 
